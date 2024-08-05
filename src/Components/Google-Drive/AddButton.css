@@ -1,0 +1,54 @@
+/* src/Components/AddButton.css */
+
+.add-button-container {
+  position: absolute;
+  top: 80px; /* Position below the Google Drive name */
+  left: 20px; /* Position it from the left side */
+  width: 150px; /* Width of the button */
+  margin-bottom: 80px; /* Increased space between the AddButton and the sidebar */
+  z-index: 2; /* Ensure it is below the dropdown menu but above other content */
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px; /* Height of the button */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  border: 2px solid #4285f4; /* Google Drive blue border */
+  color: #4285f4; /* Google Drive blue text color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  cursor: pointer; /* Indicate that it's clickable */
+  font-size: 16px; /* Font size for the text */
+  padding: 0 10px; /* Add some padding to the sides */
+}
+
+.add-button span {
+  margin-left: 8px; /* Gap between "+" and "New" */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Position below the button */
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  width: 100%;
+  z-index: 1001; /* Ensure it appears above the sidebar */
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}

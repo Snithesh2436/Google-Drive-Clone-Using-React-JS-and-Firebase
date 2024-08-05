@@ -1,0 +1,26 @@
+.grid-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .grid-item {
+    flex: 0 1 calc(33.333% - 10px);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+  
+  .grid-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .grid-item-name {
+    flex: 1;
+    padding-right: 10px;
+  }
+  

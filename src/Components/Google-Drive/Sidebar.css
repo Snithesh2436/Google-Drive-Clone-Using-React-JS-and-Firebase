@@ -1,0 +1,40 @@
+/* src/Components/Sidebar.css */
+
+.sidebar {
+    position: fixed; /* Fixed position to keep it in place */
+    top: 180px; /* Adjust to provide more gap from the AddButton */
+    left: 20px; /* Distance from the left edge */
+    width: 200px; /* Keep the width as is */
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #ddd; /* Border for definition */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px; /* Internal spacing */
+    z-index: 1000; /* Ensure it's on top of other content */
+    height: 300px; /* Adjusted height */
+    overflow-y: auto; /* Scroll if content overflows */
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px; /* Space between items */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.sidebar-item:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+}
+
+.sidebar-item-icon {
+    margin-right: 10px; /* Space between icon and text */
+    color: #4285f4; /* Icon color */
+}
+
+.sidebar-item-text {
+    font-size: 16px; /* Font size for text */
+    color: #333; /* Text color */
+}

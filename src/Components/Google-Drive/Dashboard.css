@@ -1,0 +1,95 @@
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar-and-addbutton-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px; /* Adjust width as needed */
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.add-button-container {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.sidebar {
+  margin-top: 40px; /* Increase this value for more space between AddButton and Sidebar */
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.my-2 {
+  margin: 10px 0;
+}
+
+.button-group-container {
+  margin-bottom: 10px;
+}
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar-and-addbutton-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0 0 auto; /* Ensure the sidebar and add button stay in their defined space */
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px; /* Add padding around content */
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar-and-addbutton-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto; /* Ensure the sidebar and add button stay in their defined space */
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px; /* Add padding around content */
+}
+
+.dashboard-header {
+  padding: 20px; /* Space around the header */
+  border-bottom: 1px solid #ddd; /* Light border below */
+  background-color: #f8f9fa; /* Light background similar to Google Drive */
+  text-align: center; /* Center text horizontally */
+  margin-bottom: 20px; /* Space between header and content */
+}
+
+.welcome-message {
+  font-size: 24px; /* Larger font size for prominence */
+  font-weight: 500; /* Slightly bold text */
+  color: #202124; /* Dark text color similar to Google Drive */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Light background color */
+  color: #333; /* Dark text color */
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ddd; /* Optional border for definition */
+  font-size: 14px;
+}

@@ -1,0 +1,18 @@
+.file-upload-button {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f8f9fa; /* Example color similar to Google Drive */
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .file-upload-button input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+  
+  .file-upload-button .fa-file-upload {
+    font-size: 1.5rem; /* Adjust icon size */
+    margin-right: 8px; /* Space between icon and text */
+  }
+  

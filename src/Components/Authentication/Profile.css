@@ -1,0 +1,12 @@
+.profile-icon {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text color */
+  border-radius: 50%; /* Circle shape */
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1.2rem; /* Adjust font size */
+}
